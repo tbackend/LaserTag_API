@@ -1,0 +1,22 @@
+{
+  "name": "lasertag_backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Marksman",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
+  }
+}
