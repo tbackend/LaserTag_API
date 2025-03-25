@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import dataRouter from "../src/routes/data.routes.js";
 
 export const app = express();
