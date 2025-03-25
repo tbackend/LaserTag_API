@@ -14,7 +14,8 @@ datasource db {
 }
 
 model User {
-  id      Int     @unique @default(autoincrement())
-  hexcode Int     @unique
-  player  String?
+  id         Int     @unique @default(autoincrement())
+  hexcode    String  @unique
+  player     String?
+  macAddress String
 }
